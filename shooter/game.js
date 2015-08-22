@@ -11,7 +11,7 @@ var game = new Phaser.Game(800,600,Phaser.AUTO,'game',
 
 function preload() {
   game.stage.backgroundColor = '#4444FF';
-  game.load.image('background', 'background.gif');
+  game.load.image('background', 'background.jpg');
   game.load.image('player', 'ship.gif');
   game.load.image('missile', 'missle.gif');
   game.load.image('enemy', 'enemy.gif');
